@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="10" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-23T14:38:53 IST" name="Suite" finished-at="2024-04-23T14:40:02 IST" duration-ms="68770">
+    <groups>
+      <group name="functional">
+        <method signature="TC001_CaptureServices.captureServices()[pri:0, instance:testCases.TC001_CaptureServices@60bd273d]" name="captureServices" class="testCases.TC001_CaptureServices"/>
+        <method signature="TC002_GetErrorMsg.getErrorMessage()[pri:1, instance:testCases.TC002_GetErrorMsg@a38c7fe]" name="getErrorMessage" class="testCases.TC002_GetErrorMsg"/>
+      </group> <!-- functional -->
+      <group name="regression">
+        <method signature="TC001_CaptureServices.captureServices()[pri:0, instance:testCases.TC001_CaptureServices@60bd273d]" name="captureServices" class="testCases.TC001_CaptureServices"/>
+        <method signature="TC002_GetErrorMsg.getErrorMessage()[pri:1, instance:testCases.TC002_GetErrorMsg@a38c7fe]" name="getErrorMessage" class="testCases.TC002_GetErrorMsg"/>
+        <method signature="TC003_NavigateToHomePage.navigateHomePage()[pri:2, instance:testCases.TC003_NavigateToHomePage@6fdbe764]" name="navigateHomePage" class="testCases.TC003_NavigateToHomePage"/>
+        <method signature="TC004_GetServiceCenters.getServiceCenters()[pri:3, instance:testCases.TC004_GetServiceCenters@51c668e3]" name="getServiceCenters" class="testCases.TC004_GetServiceCenters"/>
+      </group> <!-- regression -->
+    </groups>
+    <test started-at="2024-04-23T14:38:53 IST" name="Test" finished-at="2024-04-23T14:40:02 IST" duration-ms="68770">
+      <class name="testCases.TC001_CaptureServices">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_CaptureServices@60bd273d]" started-at="2024-04-23T14:38:53 IST" name="setup" finished-at="2024-04-23T14:39:14 IST" duration-ms="20800" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="captureServices()[pri:0, instance:testCases.TC001_CaptureServices@60bd273d]" started-at="2024-04-23T14:39:14 IST" name="captureServices" finished-at="2024-04-23T14:39:20 IST" duration-ms="6232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureServices -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_CaptureServices@60bd273d]" started-at="2024-04-23T14:40:01 IST" name="tearDown" finished-at="2024-04-23T14:40:02 IST" duration-ms="1121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC001_CaptureServices -->
+      <class name="testCases.TC003_NavigateToHomePage">
+        <test-method signature="navigateHomePage()[pri:2, instance:testCases.TC003_NavigateToHomePage@6fdbe764]" started-at="2024-04-23T14:39:29 IST" name="navigateHomePage" finished-at="2024-04-23T14:39:32 IST" duration-ms="3388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateHomePage -->
+      </class> <!-- testCases.TC003_NavigateToHomePage -->
+      <class name="testCases.TC004_GetServiceCenters">
+        <test-method signature="getServiceCenters()[pri:3, instance:testCases.TC004_GetServiceCenters@51c668e3]" started-at="2024-04-23T14:39:33 IST" name="getServiceCenters" finished-at="2024-04-23T14:40:01 IST" duration-ms="27347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getServiceCenters -->
+      </class> <!-- testCases.TC004_GetServiceCenters -->
+      <class name="testCases.TC002_GetErrorMsg">
+        <test-method signature="getErrorMessage()[pri:1, instance:testCases.TC002_GetErrorMsg@a38c7fe]" started-at="2024-04-23T14:39:21 IST" name="getErrorMessage" finished-at="2024-04-23T14:39:29 IST" duration-ms="8256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getErrorMessage -->
+      </class> <!-- testCases.TC002_GetErrorMsg -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
